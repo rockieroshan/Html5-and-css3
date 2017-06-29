@@ -1,0 +1,143 @@
+body{
+  font:15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+/* Globsl */
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.button_1 {
+  float: right;
+  margin-top: 25px;
+
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+/* Header */
+header{
+  background:#354242;
+  color: #ffffff;
+  padding-top:30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+ header li {
+   display: inline;
+   padding: 0 20px 0 20px;
+   float: left;
+ }
+.current a {
+  color: red;
+}
+ header #branding {
+   float: left;
+   margin: 0;
+ }
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+header a:hover {
+  font-weight: bold;
+  color: #cccccc
+}
+
+header .red {
+  color: red;
+  font-weight: bolder;
+}
+/* Showcase */
+
+#showcase {
+  min-height: 400px;
+  color: #ffffff;
+  background: url('../images/showcase.jpg') no-repeat 0 -400px;
+}
+#showcase h1 {
+  text-align: center;
+  font-size: 55px;
+  margin-top: 55px;
+  margin-bottom: 15px;
+}
+#showcase p {
+  font-size: 25px;
+}
+
+/*newsletter*/
+
+#newsletter {
+  background: #35424a;
+  color: white;
+}
+
+
+#newsletter h1 {
+  float: left;
+}
+
+#newsletter input[type="email"]{
+  float: right;
+  margin-top: 25px;
+}
+
+
+/*boxes*/
+
+#boxes {
+  margin-top: 20px;
+
+}
+
+#boxes .box {
+  float: left;
+  padding: 10px;
+  text-align: center;
+  width: 30%;
+}
+img {
+  width:30%;
+}
+/*aside*/
+#sidebar {
+  float: right;
+  width: 30%;
+}
+
+/*footer*/
+footer {
+ padding: 15px;
+ margin: 5px;
+  color: white;
+  background-color: orange;
+    text-align: center;
+}
+
+.side {
+   background:grey;
+   padding: 15px;
+   margin-top: 100px;
+   margin-left: 100px;
+}
+
+
+#main-col {
+  float: left;
+  width: 65%;
+}
+footer p {
+  background-color: orange;
+}
